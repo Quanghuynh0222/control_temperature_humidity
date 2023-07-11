@@ -1,0 +1,4 @@
+Compiling D:\DA_VDK\do_an_vdk\Mach_DHT22_8led_7doan_loa_2RL_Pic_cach2\dht22 on 15-Dec-22 at 22:29
+*** Error 128 "D:\DA_VDK\do_an_vdk\Mach_DHT22_8led_7doan_loa_2RL_Pic_cach2\dht22.c" Line 1(1,4): A #DEVICE required before this line
+      1 Errors,  0 Warnings.
+Build Failed.

@@ -1,0 +1,59 @@
+#BIT  Data_Pin     =  0x07.0
+#BIT  Data_Pin_TRIS =  0x87.0     // set tris cua port A
+int DATA[5];
+#define DHT_ER    0
+#define DHT_OK    1
+
+
+
+//unsigned int8 DHT_GetTemHumi (unsigned int8 &tem1,&tem2,unsigned int8 &humi1,&humi2);
+
+unsigned int8 DHT_GetTemHumi(unsigned int8 &tem1,&tem2,unsigned int8 &humi1,&humi2)
+{
+   unsigned int8 buffer[5]={0,0,0,0,0};
+   unsigned int8 ii,i,checksum;
+   
+   Data_Pin_TRIS =0;   // set la cong ra, huong vao hay ra
+   Data_Pin      =1;
+   delay_hienthi(3);
+   Data_Pin      =1;
+   Data_Pin_TRIS =1;
+   delay_us(40); // doi thoi gian tu 20us toi 40us
+//!   delay_hienthi(3); // it nhat 18ms
+//!   DHT_DATA_OUT=1;    
+//!   DHT_DDR_DATA=DDRIN;//set la cong vao
+//!   delay_us(60);
+    if(Data_Pin == 0)                          
+    {
+        delay_us(80);                 //doi 80us thi Data len 1
+        if(Data_Pin == 1)
+        {
+           delay_us(80);             
+            return 1;    
+        }
+    }
+
+  for(int i = 0; i<5; i++)
+  {
+       for(int ii = 0; ii<8; ii++) {
+        while(Data_Pin == 0);                          //doi len 1
+        delay_us(50);                         
+        if(Data_Pin == 1)                               //trong >28us ma data van =1 thi se gui bit 1
+        {
+            DATA[i] =DATA[i]<<1| 1;
+            while(Data_Pin == 1){}
+        }
+        else  DATA[i] =DATA[i]<<1| 0;
+       }
+    }
+   checksum=buffer[0]+buffer[1]+buffer[2]+buffer[3];
+   if((checksum)!=buffer[4])return DHT_ER;
+   tem1  =   buffer[2];//gia tri phan nguyen
+   tem2  =   buffer[3];//gia tri phan thap phan
+   humi1 =   buffer[0];//gia tri phan nguyen
+   humi2 =   buffer[1];//gia tri phan thap phan
+   return DHT_OK;
+}
+
+
+

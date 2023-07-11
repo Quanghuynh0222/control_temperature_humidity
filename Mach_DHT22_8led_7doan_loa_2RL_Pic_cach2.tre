@@ -1,0 +1,95 @@
+ÀÄMach_DHT22_8led_7doan_loa_2RL_Pic_cach2
+   ÀÄMAIN  0/92  Ram=0
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄ@cinit2  (Inline)  Ram=0
+      ÃÄtt_mode  0/758  Ram=8
+      ³  ÃÄDHT_GetTemHumi  (Inline)  Ram=19
+      ³  ³  ÀÄdelay_quet_led  0/9  Ram=2
+      ³  ³     ÀÄquet_led  0/129  Ram=0
+      ³  ³        ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ³        ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ³        ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ³        ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ³        ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ³        ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ³        ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ³        ÀÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄ@DIV3232  0/79  Ram=13
+      ³  ÃÄ@DIV3232  0/79  Ram=13
+      ³  ÃÄ@DIV3232  0/79  Ram=13
+      ³  ÃÄ@DIV3232  0/79  Ram=13
+      ³  ÃÄ@DIVS88  0/37  Ram=4
+      ³  ÃÄ@DIVS88  0/37  Ram=4
+      ³  ÃÄdelay_quet_led  0/9  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄdelay_quet_led  0/9  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄ@DIV3232  0/79  Ram=13
+      ³  ÃÄ@DIV3232  0/79  Ram=13
+      ³  ÃÄ@DIVS88  0/37  Ram=4
+      ³  ÃÄ@DIVS88  0/37  Ram=4
+      ³  ÃÄdelay_quet_led  0/9  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄdelay_quet_led  0/9  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄ@DIV3232  0/79  Ram=13
+      ³  ÃÄ@DIV3232  0/79  Ram=13
+      ³  ÃÄ@DIV3232  0/79  Ram=13
+      ³  ÃÄ@DIV3232  0/79  Ram=13
+      ³  ÃÄ@DIVS88  0/37  Ram=4
+      ³  ÃÄ@DIVS88  0/37  Ram=4
+      ³  ÃÄ@DIVS88  0/37  Ram=4
+      ³  ÀÄ@DIVS88  0/37  Ram=4
+      ÃÄquet_led  0/129  Ram=0
+      ³  ÀÄ*
+      ÃÄphim_mod  0/171  Ram=1
+      ³  ÃÄquet_led  0/129  Ram=0
+      ³  ³  ÀÄ*
+      ³  ÃÄquet_led  0/129  Ram=0
+      ³  ³  ÀÄ*
+      ³  ÃÄquet_led  0/129  Ram=0
+      ³  ³  ÀÄ*
+      ³  ÃÄquet_led  0/129  Ram=0
+      ³  ³  ÀÄ*
+      ³  ÃÄtt_mode  0/758  Ram=8
+      ³  ³  ÀÄ*
+      ³  ÃÄquet_led  0/129  Ram=0
+      ³  ³  ÀÄ*
+      ³  ÃÄtt_mode  0/758  Ram=8
+      ³  ³  ÀÄ*
+      ³  ÃÄquet_led  0/129  Ram=0
+      ³  ³  ÀÄ*
+      ³  ÃÄdelay_quet_led  0/9  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄdelay_quet_led  0/9  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄdelay_quet_led  0/9  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄdelay_quet_led  0/9  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄtt_mode  0/758  Ram=8
+      ³  ³  ÀÄ*
+      ³  ÀÄquet_led  0/129  Ram=0
+      ³     ÀÄ*
+      ÃÄphim_up  0/136  Ram=1
+      ³  ÃÄdelay_quet_led  0/9  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄdelay_quet_led  0/9  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄtt_mode  0/758  Ram=8
+      ³  ³  ÀÄ*
+      ³  ÀÄdelay_quet_led  0/9  Ram=2
+      ³     ÀÄ*
+      ÃÄphim_dw  0/126  Ram=1
+      ³  ÃÄdelay_quet_led  0/9  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄdelay_quet_led  0/9  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄtt_mode  0/758  Ram=8
+      ³  ³  ÀÄ*
+      ³  ÀÄdelay_quet_led  0/9  Ram=2
+      ³     ÀÄ*
+      ÃÄtt_mode  0/758  Ram=8
+      ³  ÀÄ*
+      ÀÄquet_led  0/129  Ram=0
+         ÀÄ*

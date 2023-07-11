@@ -1,0 +1,124 @@
+004-005 @WRITE_PROGRAM_MEMORY8.P1
+004-005 @READ_PROGRAM_MEMORY8.P2
+007.0   DHT_DATA_IN
+007.0   DHT_DATA_OUT
+008     PSP_DATA
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01B     CCP_2
+01B     CCP_2_LOW
+01C     CCP_2_HIGH
+020-023 tt_mod
+024-027 dem
+028-032 ma7doan
+033     led0
+034     led1
+035     led2
+036     led3
+037     led4
+038     led5
+039     led6
+03A     led7
+03B     ND2
+03C     ND1
+03D     DA2
+03E     DA1
+03F-042 nd
+043-046 da
+047     ghnd
+048     ghda
+049     @TRIS_C
+04A     @DIVS88.P1
+04A-04E DHT_GetTemHumi.buffer
+04A     tt_mode.@SCRATCH1
+04A     phim_mod.@SCRATCH1
+04A     phim_up.@SCRATCH1
+04A     phim_dw.@SCRATCH1
+04B     @DIVS88.P1
+04B     tt_mode.@SCRATCH2
+04C     tt_mode.@SCRATCH3
+04C     @DIVS88.@SCRATCH1
+04D     tt_mode.@SCRATCH4
+04D     @DIVS88.@SCRATCH2
+04E-051 @DIV3232.P1
+04E     tt_mode.@SCRATCH5
+04F     DHT_GetTemHumi.ii
+04F     tt_mode.@SCRATCH6
+050     DHT_GetTemHumi.i
+050     tt_mode.@SCRATCH7
+051     DHT_GetTemHumi.checksum
+051     tt_mode.@SCRATCH8
+052-055 @DIV3232.P1
+052     DHT_GetTemHumi.@SCRATCH1
+053     DHT_GetTemHumi.@SCRATCH2
+054     DHT_GetTemHumi.@SCRATCH3
+056     @DIV3232.@SCRATCH1
+057     @DIV3232.@SCRATCH2
+058     @DIV3232.@SCRATCH3
+059     @DIV3232.@SCRATCH4
+05A     delay_quet_led.h
+05A     @DIV3232.@SCRATCH5
+05B     delay_quet_led.l
+05C     @delay_ms1.P1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+087.0   DHT_DDR_DATA
+09C.6   C1OUT
+09C.7   C2OUT
+10D-10E @READ_PROGRAM_MEMORY8.P1
+10D-10E @WRITE_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  @delay_ms1
+000018  quet_led
+000099  delay_quet_led
+0000A2  @DIV3232
+0000F1  @DIVS88
+000116  tt_mode
+000122  DHT_GetTemHumi
+00040C  phim_mod
+0004B7  phim_up
+00053F  phim_dw
+0005BD  @cinit1
+0005BD  MAIN
+0005C9  @cinit2
+
+Project Directory:
+    D:\DA_VDK\do_an_vdk\do_an_vdk\
+
+Project Files:
+    Mach_DHT22_8led_7doan_loa_2RL_Pic_cach2.c               [16-Dec-22 00:45  CRC=9DA436AB]
+    C:\Program Files (x86)\PICC\Devices\16f877a.h           [21-Jan-21 11:32  CRC=DB498A92]
+    dht22.c                                                 [16-Dec-22 00:51  CRC=399DB719]
+
+Source signature=EC292F6F
+Program memory checksum=0000
+Hex file CRC=EC2A
+
+Units:
+    D:\DA_VDK\do_an_vdk\do_an_vdk\Mach_DHT22_8led_7doan_loa_2RL_Pic_cach2 (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:   CCS5
+
+Output Files:
+    XREF file:   Mach_DHT22_8led_7doan_loa_2RL_Pic_cach2.xsym
+    Errors:      Mach_DHT22_8led_7doan_loa_2RL_Pic_cach2.err
+    Ext Symbols: Mach_DHT22_8led_7doan_loa_2RL_Pic_cach2.esym
+    INHX8:       Mach_DHT22_8led_7doan_loa_2RL_Pic_cach2.hex
+    Symbols:     Mach_DHT22_8led_7doan_loa_2RL_Pic_cach2.sym
+    List:        Mach_DHT22_8led_7doan_loa_2RL_Pic_cach2.lst
+    Debug/COFF:  Mach_DHT22_8led_7doan_loa_2RL_Pic_cach2.cof
+    Project:     Mach_DHT22_8led_7doan_loa_2RL_Pic_cach2.ccspjt
+    Call Tree:   Mach_DHT22_8led_7doan_loa_2RL_Pic_cach2.tre
+    Statistics:  Mach_DHT22_8led_7doan_loa_2RL_Pic_cach2.STA

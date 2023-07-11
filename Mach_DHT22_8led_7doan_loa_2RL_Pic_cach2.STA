@@ -1,0 +1,58 @@
+
+ROM used:   1561/8192 (19%)
+            1561/8192 (19%) including unused fragments
+
+            1.5 Average locations per line
+            6.1 Average locations per statement
+
+RAM used:   47/368 (13%) at main() level
+            66/368 (18%) worst case
+
+Stack used: 4 worst case (4 in main + 0 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  291   221  86  Mach_DHT22_8led_7doan_loa_2RL_Pic_cach2.c
+  707     0   0  C:\Program Files (x86)\PICC\Devices\16f877a.h
+   56    37  14  dht22.c
+----- -----
+ 1054   258 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     20   1    1             @delay_ms1
+ Inline        19   1466 10.5  DHT_GetTemHumi
+0    758  49    8   3142  7.4  tt_mode
+0     79   5   13             @DIV3232
+0     37   2    4             @DIVS88
+0    129   8    0    794  1.5  quet_led
+0      9   1    2    106  3.5  delay_quet_led
+0    171  11    1   1037  6.3  phim_mod
+0    136   9    1    533  4.8  phim_up
+0    126   8    1    533  4.8  phim_dw
+0     92   6    0    318  2.3  MAIN
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               8
+    Statements              258
+    Comments                157
+    Volume (V)              11096
+    Difficulty (D)          40.6
+    Effort to implement (E) 450272
+    Time to implement (T)   6 hours, 57 minutes
+    Est Delivered Bugs (B)  2
+    Cyclomatic Complexity   32
+    Maintainability (MI)    104
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF  1557  487  
+00800-00FFF     0  2048  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+

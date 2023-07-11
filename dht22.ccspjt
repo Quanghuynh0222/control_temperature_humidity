@@ -1,0 +1,47 @@
+[defines]
+buildcount=1
+
+[PROJECT]
+Processor_Text=PIC16F877A
+
+[Opened Files]
+1=dht22.c
+t1=1
+2=Mach_DHT22_8led_7doan_loa_2RL_Pic_cach2.c
+t2=1
+Count=2
+3=Mach_DHT22_8led_7doan_loa_2RL_Pic_cach2.c
+t3=13
+4=..\..\91.Thien_Mach_DHT22_8led_7doan_loa_2RL_Pic (1)\91.Thien_Mach_DHT22_8led_7doan_loa_2RL_Pic\thu_vien_dht22.c
+t4=1
+
+[fileformats]
+forcecoff=0
+
+[ProjectLog]
+Days=1
+D1=15-12-2022
+D1_L=19
+D1_L1=[69624]Project Closed.
+D1_L2=[69634]Project Opened.
+D1_L3=[69634]Project Closed.
+D1_L4=[69635]Project Opened.
+D1_L5=[69672]Project Closed.
+D1_L6=[70863]Project Opened.
+D1_L7=[70883]Started Editing.
+D1_L8=[70939]Stopped Editing.
+TotalEdit=3
+TotalDebug=0
+D1_E=3
+D1_D=0
+D1_L9=[70939]Project Closed.
+D1_L10=[71203]Project Opened.
+D1_L11=[71215]Started Editing.
+D1_L12=[71224]Stopped Editing.
+D1_L13=[71224]Project Closed.
+D1_L14=[80921]Project Opened.
+D1_L15=[80925]Started Editing.
+D1_L16=[80945]Stopped Editing.
+D1_L17=[80969]Project Closed.
+D1_L18=[81166]Project Opened.
+D1_L19=[81178]Project Closed.
